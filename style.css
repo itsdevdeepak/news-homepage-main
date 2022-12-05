@@ -133,7 +133,7 @@ header {
   }
 
   #hero {
-    flex-basis: 66%;
+    flex-basis: 65%;
   }
 
   #hero .ctn {
@@ -154,12 +154,13 @@ header {
   }
 
   #hero .ctn h1 {
+    margin: 0;
     flex-basis: 40%;
   }
 
   #feeds {
-    margin-top: 1.2rem;
-    flex-basis: 34%;
+    margin: 1.2rem 0 0 0;
+    flex-basis: 35%;
   }
 }
 
@@ -204,10 +205,6 @@ header {
     display: flex;
     padding: 1.2rem;
   }
-
-  /* #featured_articals article {
-    padding: 1rem;
-  } */
 }
 
 .attribution {
