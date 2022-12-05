@@ -39,7 +39,7 @@ a {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 0.98rem;
   font-weight: 400;
   line-height: 1.7;
   margin: 0.6em 0;
@@ -48,19 +48,19 @@ p {
 
 h1 {
   margin: 1.1rem 0;
-  font-size: 3.35rem;
+  font-size: 3.4rem;
   font-weight: 800;
   color: var(--clr-neutral-darker);
 }
 
 h2 {
   margin: 0.5em 0;
-  font-size: 2.27rem;
+  font-size: 2rem;
 }
 
 h3 {
   margin: 0.5em 0;
-  font-size: 1.41rem;
+  font-size: 1.3rem;
   font-weight: 800;
 }
 
@@ -96,14 +96,14 @@ ul {
 
 section,
 aside {
-  margin: 1.2rem;
+  margin: 0 1.2rem;
 }
 
 
 .navbar {
   display: flex;
   justify-content: end;
-  max-width: 75%;
+  max-width: 80%;
   margin: 1.6rem auto;
   padding-left: 1.2rem;
   align-items: center;
@@ -208,22 +208,24 @@ aside {
 
 #feeds .feed {
   border-bottom: 1px solid var(--clr-neutral);
-  padding: 0.8em 0;
+  padding: 1.3em 0;
 }
 
 #feeds .feed:last-child {
   border-bottom: none;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   #main {
     display: flex;
-    width: 75%;
+    width: 80%;
     margin: auto;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
   #hero {
-    flex-basis: 65%;
+    flex-basis: 72%;
   }
 
   #hero .ctn {
@@ -234,7 +236,7 @@ aside {
   }
 
   #hero .ctn .summery {
-    flex-basis: 50%;
+    flex-basis: 48%;
     display: flex;
     flex-flow: column;
   }
@@ -249,9 +251,10 @@ aside {
   }
 
   #feeds {
-    margin: 1.2rem 0 0 0;
-    flex-basis: 35%;
+    margin: 0;
+    flex-basis: 27%;
   }
+
 }
 
 #featured_articals {
@@ -263,10 +266,11 @@ aside {
   gap: 5%;
   align-items: center;
   margin: 1.3rem 0;
+  flex-basis: 30%;
 }
 
 #featured_articals .image-wrapper {
-  flex-basis: 35%;
+  flex-basis: 30%;
   max-width: 115px;
   max-height: 150px;
 }
@@ -288,12 +292,13 @@ aside {
   color: var(--clr-primary-dark);
 }
 
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   #featured_articals {
-    width: 75%;
-    margin: auto;
+    width: 80%;
+    margin: 3rem auto 0;
     display: flex;
-    padding: 1.2rem;
+    padding: 1.3rem;
+    justify-content: space-between;
   }
 }
 
