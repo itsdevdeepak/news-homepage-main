@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 <!-- TODO: Update link -->
-- Solution URL: [NFT Preview Card ↗](https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-4KZbCYeozW)
+- Solution URL: [News Homepage Main ↗](https://www.frontendmentor.io/)
 - Live Site URL: [Link ↗](https://itsdevdeepak.github.io/news-homepage-main/)
 
 

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | News homepage</title>
@@ -14,14 +14,21 @@
 
 <body>
   <header>
-    <nav>
-      <div class="logo"><a href="#">Home</a></div>
-      <ul>
-        <li><a href="#">New </a></li>
-        <li><a href="#">Popular </a></li>
-        <li><a href="#">Trending </a></li>
-        <li><a href="#">Categories </a></li>
+    <nav class="navbar">
+      <div class="nav-logo"><img src="./assets/images/logo.svg" alt="logo"></div>
+      <ul class="nav-items toggle-off">
+        <li><a onclick="closeMenu()" class="nav-link" href="#">Home </a></li>
+        <li><a onclick="closeMenu()" class="nav-link" href="#">New </a></li>
+        <li><a onclick="closeMenu()" class="nav-link" href="#">Popular </a></li>
+        <li><a onclick="closeMenu()" class="nav-link" href="#">Trending </a></li>
+        <li><a onclick="closeMenu()" class="nav-link" href="#">Categories </a></li>
       </ul>
+      <a onclick="openMenu()" class="menu-icon">
+        <img src="./assets/images/icon-menu.svg" alt="menu-icon">
+      </a>
+      <a onclick="closeMenu()" class="menu-close-icon toggle-off">
+        <img src="./assets/images/icon-menu-close.svg" alt="menu-close-icon">
+      </a>
     </nav>
   </header>
 
@@ -119,5 +126,23 @@
     Coded by <a href="https://github.com/itsdevdeepak" target="_blank">Deepak</a>.
   </div>
 </body>
+<script>
+  var menuIco = document.querySelector(".menu-icon")
+  var menuIcoClose = document.querySelector(".menu-close-icon")
+  var navMenu = document.querySelector(".nav-items")
+
+  // not working for some reasion
+  // menuIco.addEventListener("click", openMenu);
+  // menuIcoClose.addEventListener("click", closeMenu)
+
+  var closeMenu = () => {
+    menuIcoClose.classList.add("toggle-off")
+    navMenu.classList.add("toggle-off")
+  }
+  var openMenu = () => {
+    menuIcoClose.classList.remove("toggle-off")
+    navMenu.classList.remove("toggle-off")
+  }
+</script>
 
 </html>
