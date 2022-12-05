@@ -103,7 +103,7 @@ aside {
 .navbar {
   display: flex;
   justify-content: end;
-  max-width: 80%;
+  max-width: 75%;
   margin: 1.6rem auto;
   padding-left: 1.2rem;
   align-items: center;
@@ -218,7 +218,7 @@ aside {
 @media (min-width: 800px) {
   #main {
     display: flex;
-    width: 80%;
+    width: 75%;
     margin: auto;
     align-items: flex-start;
     justify-content: space-between;
@@ -294,10 +294,11 @@ aside {
 
 @media (min-width: 800px) {
   #featured_articals {
-    width: 80%;
-    margin: 3rem auto 0;
+    width: 75%;
+    margin: 2rem auto 0;
     display: flex;
     padding: 1.3rem;
+    padding-right: 0;
     justify-content: space-between;
   }
 }
