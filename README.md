@@ -27,8 +27,7 @@ Users should be able to:
 
 
 ### Links
-<!-- TODO: Update link -->
-- Solution URL: [News Homepage Main ↗](https://www.frontendmentor.io/)
+- Solution URL: [News Homepage Main ↗](https://www.frontendmentor.io/solutions/news-homepage-main-html-css-js-1pUjYtu2xf)
 - Live Site URL: [Link ↗](https://itsdevdeepak.github.io/news-homepage-main/)
 
 
